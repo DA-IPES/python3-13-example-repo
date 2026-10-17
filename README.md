@@ -15,7 +15,7 @@ To run a Python file containing your program:
 ```
 uv run python <path-to-file>
 
-# example 
+# example (!!! on Windows, use "\" instead of "/" in paths)
 uv run python ./src/python3_13_example_repo/main.py
 
 # output : Hello World 
