@@ -17,7 +17,7 @@ dependencies = [
     "numpy>=2.5.4",
     "opencv-python>=5.0.0.93",
     "pandas>=3.0.6",
-    "picamzero>=1.1.0",
+    "picamzero>=1.1.0 ; sys_platform == 'linux'",
     "pillow>=13.0.0",
     "reverse-geocoder>=1.5.1",
     "scikit-image>=0.26.0",
